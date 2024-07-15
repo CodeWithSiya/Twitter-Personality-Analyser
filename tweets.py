@@ -28,8 +28,7 @@ def load_credentials() -> dict:
         "ACCESS_TOKEN": os.getenv("ACCESS_TOKEN"),
         "ACCESS_TOKEN_SECRET": os.getenv("ACCESS_TOKEN_SECRET")
     }
-
-
+    
 def external_user_login() -> tweepy.API:
     """
     Perform OAuth 1.0a user authentication for Twitter API.
@@ -88,6 +87,3 @@ def get_user_tweets(api: tweepy.API, username: str, count: int = 20) -> None:
 
     except tweepy.TweepyException as e:
         print(f"Error fetching tweets: {e}")
-
-if __name__ == "__main__":
-    main()
