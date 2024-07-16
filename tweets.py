@@ -54,7 +54,7 @@ def external_user_login() -> tweepy.API:
 
     # Get the access token.
     try:
-        auth.get_ACCESS_TOKEN(verifier)
+        auth.get_access_token(verifier)
         print("Authentication successful!")
     except tweepy.TweepyException as e:
         print(f"Error: {e}")
