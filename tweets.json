@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "created_at": "2024-07-16T10:00:00",
+        "text": "Exploring the beautiful trails of the national park today. #NatureLover",
+        "retweet_count": 45,
+        "favorite_count": 120
+    },
+    {
+        "id": 2,
+        "created_at": "2024-07-16T09:59:00",
+        "text": "Just finished reading an amazing book on artificial intelligence. Highly recommend! #AI #Books",
+        "retweet_count": 60,
+        "favorite_count": 230
+    },
+    {
+        "id": 3,
+        "created_at": "2024-07-16T09:58:00",
+        "text": "Had a fantastic time catching up with old friends over the weekend. #GoodTimes",
+        "retweet_count": 15,
+        "favorite_count": 89
+    },
+    {
+        "id": 4,
+        "created_at": "2024-07-16T09:57:00",
+        "text": "Excited to start a new project at work. It's going to be challenging but rewarding. #WorkLife",
+        "retweet_count": 30,
+        "favorite_count": 110
+    },
+    {
+        "id": 5,
+        "created_at": "2024-07-16T09:56:00",
+        "text": "Learning to cook new recipes is so much fun! Today's dish: homemade pasta. #Cooking",
+        "retweet_count": 20,
+        "favorite_count": 95
+    },
+    {
+        "id": 6,
+        "created_at": "2024-07-16T09:55:00",
+        "text": "Spent the afternoon volunteering at the animal shelter. So rewarding! #Volunteering",
+        "retweet_count": 35,
+        "favorite_count": 150
+    },
+    {
+        "id": 7,
+        "created_at": "2024-07-16T09:54:00",
+        "text": "Just saw a breathtaking sunset by the beach. Nature's beauty is unparalleled. #Sunset",
+        "retweet_count": 50,
+        "favorite_count": 200
+    },
+    {
+        "id": 8,
+        "created_at": "2024-07-16T09:53:00",
+        "text": "Excited to attend the tech conference next week. Can't wait to learn and network! #TechConference",
+        "retweet_count": 40,
+        "favorite_count": 180
+    },
+    {
+        "id": 9,
+        "created_at": "2024-07-16T09:52:00",
+        "text": "Watching a classic movie tonight. There's nothing like a good old film. #MovieNight",
+        "retweet_count": 25,
+        "favorite_count": 140
+    },
+    {
+        "id": 10,
+        "created_at": "2024-07-16T09:51:00",
+        "text": "Running a marathon has always been on my bucket list. Time to start training! #FitnessGoals",
+        "retweet_count": 55,
+        "favorite_count": 220
+    },
+    {
+        "id": 11,
+        "created_at": "2024-07-16T09:50:00",
+        "text": "Had a productive meeting with the team today. Exciting things are coming! #TeamWork",
+        "retweet_count": 35,
+        "favorite_count": 125
+    },
+    {
+        "id": 12,
+        "created_at": "2024-07-16T09:49:00",
+        "text": "Just adopted a new puppy. Meet Max, the newest member of our family! #AdoptDontShop",
+        "retweet_count": 60,
+        "favorite_count": 260
+    },
+    {
+        "id": 13,
+        "created_at": "2024-07-16T09:48:00",
+        "text": "Gardening is such a relaxing hobby. Can't wait to see my flowers bloom. #Gardening",
+        "retweet_count": 20,
+        "favorite_count": 110
+    },
+    {
+        "id": 14,
+        "created_at": "2024-07-16T09:47:00",
+        "text": "Had an inspiring conversation with a mentor today. Feeling motivated and focused. #Inspiration",
+        "retweet_count": 30,
+        "favorite_count": 140
+    },
+    {
+        "id": 15,
+        "created_at": "2024-07-16T09:46:00",
+        "text": "Exploring new hiking trails this weekend. Nature is the best escape. #Hiking",
+        "retweet_count": 25,
+        "favorite_count": 130
+    },
+    {
+        "id": 16,
+        "created_at": "2024-07-16T09:45:00",
+        "text": "Just finished a tough workout. Feeling exhausted but accomplished. #Fitness",
+        "retweet_count": 45,
+        "favorite_count": 160
+    },
+    {
+        "id": 17,
+        "created_at": "2024-07-16T09:44:00",
+        "text": "Had a delicious meal at a new restaurant. Highly recommend trying their desserts! #Foodie",
+        "retweet_count": 50,
+        "favorite_count": 190
+    },
+    {
+        "id": 18,
+        "created_at": "2024-07-16T09:43:00",
+        "text": "Spent the evening stargazing. The universe is so vast and beautiful. #Stargazing",
+        "retweet_count": 35,
+        "favorite_count": 170
+    },
+    {
+        "id": 19,
+        "created_at": "2024-07-16T09:42:00",
+        "text": "Working on a new art project. Creativity is flowing! #Art",
+        "retweet_count": 25,
+        "favorite_count": 120
+    },
+    {
+        "id": 20,
+        "created_at": "2024-07-16T09:41:00",
+        "text": "Attended a fantastic live music show last night. The energy was amazing! #LiveMusic",
+        "retweet_count": 55,
+        "favorite_count": 210
+    }
+]

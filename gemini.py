@@ -1,5 +1,6 @@
 import google.generativeai as genai
 from dotenv import load_dotenv
+import json
 import os
 
 """
@@ -21,6 +22,21 @@ def load_credentials() -> dict:
         "GOOGLE_API_KEY": os.getenv("GOOGLE_API_KEY"),
     }
 
+def load_tweets(filename : str) -> list:
+    """
+    Load tweets from a JSON file.
+
+    :param: filename: Name of the JSON file containing tweets.
+
+    Returns:
+        List of Tweets with various metadata.
+    """
+    with (open(filename, "r", encoding = "utf-8")) as file:
+        tweets_data = json.load(file)
+
+    tweets = [tweet['text'] for tweet in tweets_data]
+    return tweets
+
 def configure_model() -> genai.GenerativeModel:
     """
     Initialize and configure the generative ai model.
@@ -33,10 +49,13 @@ def configure_model() -> genai.GenerativeModel:
     return genai.GenerativeModel('gemini-1.5-flash')
 
 def main():
-    model = configure_model()
-    prompt = input("Enter a prompt:\n")
-    response = model.generate_content(prompt)
-    print(response.text)
+    tweets = load_tweets("tweets.json")
+    for tweet in tweets:
+        print(tweet)
+    # model = configure_model()
+    # prompt = input("Enter a prompt:\n")
+    # response = model.generate_content(prompt)
+    # print(response.text)
 
 if __name__ == "__main__":
     main()
