@@ -67,7 +67,6 @@ def authenticate_with_service_account():
 
     return client
     
-
 def analyse_tweets(client: language_v1.LanguageServiceClient, tweets: list) -> dict:
     """
     Analyze tweets using Google Cloud Language API (Gemini AI).
