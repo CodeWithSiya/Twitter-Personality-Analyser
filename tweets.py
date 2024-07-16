@@ -76,7 +76,11 @@ def get_user_tweets(api: tweepy.API, username: str, count: int = 20) -> None:
         formatted_tweets = []
         for tweet in tweets:
             formatted_tweet = {
+                "id": tweet.id,
+                "created_at": tweet.created_at,
                 "text": tweet.text,
+                "retweet_count": tweet.retweet_count,
+                "favorite_count": tweet.favorite_count
             }
             formatted_tweets.append(formatted_tweet)
 
